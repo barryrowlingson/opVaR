@@ -1,0 +1,15 @@
+Package: opVaR
+Type: Package
+Title: Computes operational risk
+Version: 1.0
+Date: 2010-06-10
+Author: Anna Patrycja Zalewska
+Maintainer: Anna Patrycja Zalewska <anna.patrycja.zalewska@gmail.com>
+Description: opVaR package computes operational risk by Monte Carlo
+        simulation performed by \code{\link{mc}} function. It provides
+        reading losses, merges them by chosen periods, fits frequency
+        and severity distributions. Finally, VaR is computed basing on
+        simulated yearly losses.
+Depends: MASS, grid, colorspace, vcd, SuppDists
+License: GPL-3
+LazyLoad: yes
